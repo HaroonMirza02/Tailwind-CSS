@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Examples</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+<div class="container mx-auto py-8">
+    <div class="max-w-3xl mx-auto">
+
+        <h2 class="text-2xl font-semibold mb-4">Colorful Unordered List</h2>
+        <ul class="list-disc ml-6">
+            <li class="text-red-600">Red List Item</li>
+            <li class="text-teal-600">Teal List Item</li>
+            <li class="text-blue-600">Blue List Item</li>
+        </ul>
+
+        <h2 class="text-2xl font-semibold my-4">Numbered Ordered List</h2>
+        <ol class="list-decimal pl-6">
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+        </ol>
+
+        <h2 class="text-2xl font-semibold my-4">Indented Nested Lists</h2>
+        <ul class="list-disc ml-8">
+            <li>Main Item
+                <ul class="list-disc ml-4">
+                    <li>Nested Item 1</li>
+                    <li>Nested Item 2</li>
+                </ul>
+            </li>
+            <li>Another Main Item</li>
+        </ul>
+
+        <h2 class="text-2xl font-semibold my-4">Iconic Description List</h2>
+        <dl class="grid grid-cols-2 gap-4">
+            <div class="flex items-center">
+                <i class="fas fa-circle text-blue-500 text-lg mr-2"></i>
+                <dt class="font-medium text-gray-800">Term 1</dt>
+            </div>
+            <dd>Description for Term 1</dd>
+            <div class="flex items-center">
+                <i class="fas fa-square text-green-500 text-lg mr-2"></i>
+                <dt class="font-medium text-gray-800">Term 2</dt>
+            </div>
+            <dd>Description for Term 2</dd>
+        </dl>
+
+        <h2 class="text-2xl font-semibold my-4">Horizontal List with Spacing</h2>
+        <ul class="flex space-x-4">
+            <li><a href="#" class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600">Button 1</a></li>
+            <li><a href="#" class="px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600">Button 2</a></li>
+            <li><a href="#" class="px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600">Button 3</a></li>
+        </ul>
+
+    </div>
+</div>
+
+</body>
+</html>
